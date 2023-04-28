@@ -1,0 +1,38 @@
+body {
+    background-image:linear-gradient(to right, dimgray, azure, dimgray);
+    font-family: sans-serif;
+}
+h1{
+    font-family: "Copperplate Gothic";
+}
+#heading{
+    background-color:green;
+}
+#heading, #submit{
+    text-align: center;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 4px;
+    border-color: white;
+    box-shadow: 10px 10px 10px grey;
+    color: white;
+}
+#submit{
+    background-color: #227442;
+    margin-top: 5px;
+    font-size: 20pt;
+}
+#submit:hover{
+    background-color: white;
+    color: black;
+}
+#name{
+    margin-left: 54px;
+    margin-bottom: 5px;
+}
+#name, #calories{
+    font-size: 12pt;
+}
+#calories_list{
+    margin-left:42px;
+}

@@ -11,7 +11,7 @@ let newFood = function(){
     );
 
     if(!food.isValid()){
-        alert("Please complete all field.");
+        alert("Please complete all fields.");
     }else{
         fArray.push(food);
         console.log(fArray);
